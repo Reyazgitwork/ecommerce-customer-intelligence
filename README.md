@@ -87,7 +87,7 @@ Main tables used:
 
 ## Folder Structure
 
-ecommerce-customer-intelligence/
+ecommerce-customer-intelligence
 │
 ├── data/
 ├── sql/

@@ -1,77 +1,96 @@
 # E-commerce Customer Intelligence & Revenue Optimization
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes an e-commerce dataset to understand business performance, customer behavior, and product category trends. The goal is to generate actionable business insights using SQL and Python.
+This project analyzes an e-commerce dataset to evaluate business performance, customer behavior, and product category trends. The objective is to generate actionable insights that can help improve revenue growth and customer retention.
 
-## Business Problem
+---
 
-An e-commerce company wants to understand:
+## 🎯 Business Problem
 
-* how revenue is performing over time
-* which product categories drive the most revenue
-* whether customers are returning or buying only once
-* where the biggest opportunities for business growth exist
+The business aims to answer key questions:
 
-## Tools Used
+* How is revenue trending over time?
+* Which product categories drive the highest revenue?
+* What is the customer retention pattern?
+* Where are the opportunities to improve business performance?
 
-* **SQL (MySQL)** for data import and business analysis
-* **Python (Pandas, Matplotlib)** for data analysis and visualization
-* **GitHub** for project presentation
+---
 
-## Dataset
+## 🛠️ Tools & Technologies
 
-Dataset used: **Olist Brazilian E-commerce Dataset**
+* **SQL (MySQL)** — Data cleaning, transformation, and KPI analysis
+* **Python (Pandas, Matplotlib)** — Data analysis and visualization
+* **Power BI** — Interactive dashboard creation
+* **GitHub** — Project documentation and version control
 
-Main tables used:
+---
 
-* customers
-* orders
-* order_items
-* products
-* payments
-* category_translation
+## 📊 Dataset
 
-## Project Workflow
+**Olist Brazilian E-commerce Dataset**
 
-1. Created project structure
-2. Imported CSV files into MySQL
-3. Validated and explored the data
+### Key Tables:
+
+* Customers
+* Orders
+* Order Items
+* Products
+* Payments
+* Category Translation
+
+---
+
+## ⚙️ Project Workflow
+
+1. Designed structured project architecture
+2. Imported and transformed raw CSV data into MySQL
+3. Performed data validation and integrity checks
 4. Calculated business KPIs using SQL
-5. Analyzed customer purchase behavior
+5. Conducted customer behavior analysis
 6. Identified top-performing product categories
-7. Built charts in Python
+7. Built visualizations using Python
+8. Developed an interactive Power BI dashboard
 
-## Key KPIs
+---
 
-* **Total Revenue:** 13,591,643.70
+## 📈 Key KPIs
+
+* **Total Revenue:** $13.6M
 * **Total Orders:** 99,441
 * **Total Customers:** 96,096
-* **Average Order Value (AOV):** 137.7
+* **Average Order Value (AOV):** $137.7
 
-## Key Insights
+---
 
-* The business generated approximately **13.6M** in total revenue from **99K+ orders**
-* Customer retention is very low:
+## 🔍 Key Insights
 
-  * **93,099** one-time customers
-  * **2,997** repeat customers
-* Repeat customers contribute a smaller share of total users but are more valuable per customer
-* Top revenue-generating categories:
+* The business generated **$13.6M revenue from ~99K orders**
+* Customer retention is significantly low:
 
-  * **Health & Beauty**
-  * **Watches & Gifts**
-  * **Bed, Bath & Table**
-* Monthly revenue trends show growth initially, with decline in later periods likely due to incomplete recent data
+  * **93,099 one-time customers (~97%)**
+  * **2,997 repeat customers (~3%)**
+* Repeat customers, although fewer, contribute higher value per customer
+* Top revenue-driving categories:
 
-## Business Recommendations
+  * Health & Beauty
+  * Watches & Gifts
+  * Bed, Bath & Table
+* Revenue trend shows strong growth initially, with a decline in later periods likely due to incomplete recent data
 
-* Improve customer retention using loyalty programs and remarketing campaigns
-* Encourage repeat purchases through personalized offers
-* Focus promotions on high-performing categories
-* Increase basket size using bundles and cross-sell strategies
+---
 
-## Python Visuals
+## 💡 Business Recommendations
+
+* Implement loyalty programs to improve customer retention
+* Target one-time buyers with personalized remarketing campaigns
+* Focus marketing spend on high-performing categories
+* Increase average order value using bundles and cross-selling strategies
+* Monitor repeat customer behavior as a key growth driver
+
+---
+
+## 📊 Python Visualizations
 
 ### Monthly Revenue Trend
 
@@ -81,27 +100,51 @@ Main tables used:
 
 ![Top Categories](visuals/top_categories.png)
 
-### Customer Type Distribution
+### Customer Distribution
 
 ![Customer Type](visuals/customer_type.png)
 
-## Folder Structure
+---
 
-ecommerce-customer-intelligence
+## 📊 Power BI Dashboard
+
+An interactive dashboard was developed to visualize:
+
+* Key KPIs (Revenue, Orders, Customers, AOV)
+* Monthly revenue trends
+* Top product categories
+* Customer behavior insights
+
+📁 File: `dashboard/dashboard.pbix`
+
+---
+
+## 📁 Project Structure
+
+```
+ecommerce-customer-intelligence/
 │
 ├── data/
 ├── sql/
 ├── python/
 │   └── ecommerce_analysis.py
+├── dashboard/
+│   └── dashboard.pbix
 ├── visuals/
 ├── README.md
+```
 
-## Future Improvements
+---
 
-* Build an interactive Power BI dashboard
-* Add cohort retention analysis
-* Perform customer segmentation (RFM)
+## 🚀 Future Improvements
 
-## Author
+* Customer segmentation using RFM analysis
+* Cohort-based retention analysis
+* Predictive modeling for customer churn
+* Advanced dashboard interactivity
 
-Mohammad Reyaz Shaik
+---
+
+## 👨‍💻 Author
+
+**Mohammad Reyaz Shaik**
